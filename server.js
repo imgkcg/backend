@@ -31,7 +31,7 @@
   /* ================================
     CORS (with credentials)
   ================================ */
-  const allowedOriginsList = (process.env.APP_ORIGIN || 'http://localhost:3000')
+  const allowedOriginsList = (process.env.APP_ORIGIN || 'https://repofront.onrender.com')
     .split(',')
     .map(s => s.trim())
     .filter(Boolean);
